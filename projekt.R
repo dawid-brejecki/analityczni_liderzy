@@ -1,7 +1,7 @@
 library(dplyr)
 library(rootSolve)
 
-dane=read.csv("/Users/user1/Desktop/projekt/dane_dochody.csv")
+dane=read.csv("dane_dochody.csv")
 dane=filter(dane, (dane$doch_praca !=0 | dane$doch_gielda != 0 | dane$doch_dg !=0))
 
 
